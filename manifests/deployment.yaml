@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: testapi-container
-        image: localhost:5000/testapi_api
+        image: localhost:5000/testapi
         # imagePullPolicy: Never
         env:
           - name: DBHOST
