@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: testapi-container
-        image: gbengaelebs.azurecr.io/testapi_api
+        image: localhost:5000/testapi_api
         # imagePullPolicy: Never
         env:
           - name: DBHOST
